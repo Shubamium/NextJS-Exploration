@@ -9,7 +9,7 @@ interface User {
   email: string;
 }
 
-export async function GetUsers() {
+async function GetUsers() {
   const url = "https://jsonplaceholder.typicode.com/users";
   const req = await fetch(url, { cache: "no-store" });
   const res = await req.json();

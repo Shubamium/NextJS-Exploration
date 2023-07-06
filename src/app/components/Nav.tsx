@@ -12,6 +12,7 @@ export default function Nav({}: Props) {
         <Link href={"/about"}>About</Link>
         <Link href={"/about/inside"}>Inside </Link>
         <Link href={"/data"}>Data </Link>
+        <Link href={"/refresh"}>Quote </Link>
       </nav>
     </header>
   );
