@@ -40,7 +40,7 @@ export default async function RefreshPage({}: Props) {
     <div>
       <h2>This page is to test refresh/caching</h2>
       <h3>
-        If you don't provide the cache option when fetching next js will
+        If you don&apos;t provide the cache option when fetching next js will
         automatically cache it
       </h3>
       <div dangerouslySetInnerHTML={{ __html: quote.h }}></div>
@@ -48,7 +48,7 @@ export default async function RefreshPage({}: Props) {
       <hr />
 
       <h2>
-        This one has cache = no-store option when fetching, so it'll always
+        This one has cache = no-store option when fetching, so it&apos;ll always
         fetched on refresh{" "}
       </h2>
       <div dangerouslySetInnerHTML={{ __html: quoteNotCached.h }}></div>

@@ -1,7 +1,7 @@
 "use client";
 import React, { Children, createContext, useState } from "react";
 
-export const GlobalContext = createContext();
+export const GlobalContext = createContext({});
 
 type Globals = {
   status: number;
